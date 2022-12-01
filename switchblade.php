@@ -6,7 +6,7 @@
 // Webhook: https://api.telegram.org/bot<token>/setwebhook?url=<url>
 
 // BOT API Configuration
-$botToken = "TOKEN"; #<------------------- PUT YOUR TOKEN HERE------------->#
+$botToken = "TOKEN"; #<5900466058:AAHrffB1U7K3lfgYFg-jFK_FBRyS-TRWH_g>#
 $website = "https://api.telegram.org/bot".$botToken;
 error_reporting(0);
 $update = file_get_contents('php://input');
@@ -220,11 +220,11 @@ $postcode = $matches1[1][0];
 
 // Proxy Configuration
 $rp1 = array(
-    1 => 'URPROXY',
-    2 => 'URPROXY',
-    3 => 'URPROXY',
-    4 => 'URPROXY',
-    5 => 'URPROXY',
+    1 => 'URPROXY',185.199.229.156
+    2 => 'URPROXY',144.168.217.88
+    3 => 'URPROXY',185.199.228.220
+    4 => 'URPROXY',188.74.210.21
+    5 => 'URPROXY',188.74.210.207
     ); 
     $rpt = array_rand($rp1);
     $rotate = $rp1[$rpt];
